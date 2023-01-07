@@ -5,7 +5,7 @@
 
 /* Banner */
 .banner {
-  background-image:url("../images/banner/banner2.png");
+  background-image: url("../images/banner/banner2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -126,14 +126,64 @@
   border-radius: 5px;
   background-position: center;
   background-size: cover;
-
-  /* background-image:url("../images/gradient2.png") ; */
 }
 .mindset-title {
   color: whitesmoke;
   font-weight: bold;
 }
 .mindset-button {
+  background-color: whitesmoke;
+  padding: 15px 20px;
+  color: orangered;
+  border-radius: 5px;
+  border-style: none;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.footer {
+  display: flex;
+  background-color: black;
+  padding: 100px;
+}
+.footer-title {
+  font-weight: 700px;
+  font-size: 65px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+.footer-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  text-align: left;
+  color: whitesmoke;
+}
+.logo {
+  margin-left: 20px;
+}
+
+.subscribe-title {
+  color: whitesmoke;
+  margin-bottom: 20px;
+}
+.input-email {
+  height: 60px;
+  width: 280px;
+  background-color: black;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  color: whitesmoke;
+  padding: 0 20px;
+}
+::placeholder {
+  color: whitesmoke;
+  font-size: 20px;
+}
+.subscribe-button {
   background-color: whitesmoke;
   padding: 15px 20px;
   color: orangered;
