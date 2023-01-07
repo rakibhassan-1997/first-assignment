@@ -1,0 +1,117 @@
+* {
+  font-family: "Work Sans", sans-ser;
+  margin: 0 auto;
+}
+
+/* Banner */
+.banner {
+  background-image: url("../images/banner/banner2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px;
+ 
+}
+.description {
+  text-align: right;
+  margin: 80px 80px 0 0;
+ 
+}
+.banner-title {
+  font-weight: 700px;
+  font-size: 65px;
+  line-height: 76px;
+  margin-bottom: 20px;
+}
+.banner-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.contact-us {
+  background-color: orangered;
+  padding: 15px 20px;
+  color: whitesmoke;
+  border-radius: 5px;
+  border-style: none;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.main-section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* failure-Section */
+.section-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 100px;
+}
+
+.first-section {
+  background-image: url("../images/sun-retro-background-4.png");
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: 10% 75%;
+}
+
+.failure-year {
+  margin-top: 50px;
+}
+.section-title {
+  font-weight: bolder;
+  line-height: 45px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  font-size: 40px;
+}
+.section-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.section-list {
+  list-style: none;
+}
+
+.section-list ::before {
+  content: "\2713";
+  color: lightgreen;
+  font-weight: bold;
+padding: 1em;
+}
+
+.section-list {
+  padding-left: 0;
+line-height: 30px;
+}
+/* plan-section */
+.plan {
+  display: flex;
+  gap: 40px
+  ;}
+.plan-title {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 40px;
+  margin: 50px;
+  
+}
+
+
+.plan-description {
+  text-align: center;
+}
+.skills {
+  margin: 20px;
+  font-weight: bold;
+}
+.skill-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
